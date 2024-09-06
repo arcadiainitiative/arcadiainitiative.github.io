@@ -3,10 +3,42 @@ body {
     font-size: 16px;
     padding: 0 10px;
     margin: 50px auto;
-    max-width: 650px;
+    max-width: 700px;
 }
 
 #maincontent {
     max-width: 42em;
     margin: 15px auto;
+}
+
+table {
+    width: 100%; /* Makes the table span the full width of its container */
+    border-collapse: collapse; /* Removes the gaps between table cells */
+    margin: 20px 0; /* Adds some space around the table */
+    font-family: Arial, sans-serif; /* Font style */
+}
+
+th, td {
+    padding: 10px; /* Adds padding inside table cells */
+    text-align: left; /* Aligns text to the left */
+    border-bottom: 1px solid #ddd; /* Adds a bottom border to each cell */
+}
+
+th {
+    background-color: #f2f2f2; /* Light background color for table header */
+    font-weight: bold; /* Bold font for headers */
+    border-bottom: 2px solid #555; /* Thicker border under the header */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternating row colors */
+}
+
+tr:hover {
+    background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+td {
+    font-size: 16px; /* Adjust font size of table data */
+    color: #333; /* Text color */
 }
