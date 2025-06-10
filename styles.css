@@ -11,34 +11,87 @@ body {
     margin: 15px auto;
 }
 
+/* Simple logo integration */
+.header-section {
+    display: flex;
+    align-items: start;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.title-content {
+    flex: 1;
+}
+
+.title-content h1 {
+    margin: 0 0 5px 0;
+    font-size: 1.8em;
+}
+
+.tagline {
+    margin: 0 0 5px 0;
+    font-weight: bold;
+}
+
+.founded {
+    margin: 0;
+    font-size: small;
+}
+
+/* Hidden element for the filter */
+.hidden-requirement {
+    display: none;
+    background: #f0f0f0;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+.reveal-btn {
+    cursor: pointer;
+    color: #0066cc;
+    text-decoration: underline;
+    font-size: 0.9em;
+}
+
+.reveal-btn:hover {
+    color: #004499;
+}
+
 table {
-    width: 100%; /* Makes the table span the full width of its container */
-    border-collapse: collapse; /* Removes the gaps between table cells */
-    margin: 20px 0; /* Adds some space around the table */
-    font-family: Arial, sans-serif; /* Font style */
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
 }
 
 th, td {
-    padding: 10px; /* Adds padding inside table cells */
-    text-align: left; /* Aligns text to the left */
-    border-bottom: 1px solid #ddd; /* Adds a bottom border to each cell */
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
 }
 
 th {
-    background-color: #f2f2f2; /* Light background color for table header */
-    font-weight: bold; /* Bold font for headers */
-    border-bottom: 2px solid #555; /* Thicker border under the header */
+    background-color: #f2f2f2;
+    font-weight: bold;
+    border-bottom: 2px solid #555;
 }
 
 tr:nth-child(even) {
-    background-color: #f9f9f9; /* Alternating row colors */
+    background-color: #f9f9f9;
 }
 
 tr:hover {
-    background-color: #f1f1f1; /* Highlight row on hover */
+    background-color: #f1f1f1;
 }
 
 td {
-    font-size: 16px; /* Adjust font size of table data */
-    color: #333; /* Text color */
+    font-size: 16px;
+    color: #333;
 }
